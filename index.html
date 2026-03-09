@@ -36,16 +36,19 @@ h2 {
   color: white;               
   border: none;
   padding: 12px 30px;         
-  border-radius: 5px;         
+  border-radius: 6px;         
   cursor: pointer;
   font-size: 18px;
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s, transform 0.15s;
   margin-bottom: 15px;
 }
 
 .btn:hover {
   background-color: #218838; 
   transform: scale(1.05);
+}
+.btn:active {
+  transform: scale(0.95);
 }
 .rs  {
  font-family: 'Rajdhani', sans-serif;
