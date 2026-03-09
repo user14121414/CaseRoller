@@ -65,17 +65,20 @@ h2 {
  font-weight: 700;
  color: white;               
  border: none;
- padding: 12px 30px;         
- border-radius: 5px;         
+ padding: 12px 25px;         
+ border-radius: 6px;         
  cursor: pointer;
  font-size: 18px;
- transition: background-color 0.3s; 
+ transition: background-color 0.3s, transform 0.15s;
  position: fixed;
  bottom: 20px;
  right: 20px;
 }
  .odds:hover {
  transform: scale(1.05);
+}
+ .odds:active {
+  transform: scale(0.95);
 }
  .odds-box {
  display:none;
@@ -90,6 +93,7 @@ h2 {
  border-radius:8px;
  width:220px;
  margin-bottom: 5px;
+ transition: opacity 0.3s;
 }
    </style>
    <title>Dreams And Nightmares</title>
